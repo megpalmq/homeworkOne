@@ -1,0 +1,53 @@
+.aboutBody{
+    width: 100%px;
+    height: 800px;
+    background-color: #f6a6d6;
+    display: flex;
+
+    .left{
+        background-image: url(../images/bear.jpg);
+        height: 500px;
+        width: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+        margin-left: 400px;
+        
+        
+    }
+    .right{
+        width: 500px;
+        margin-left: 100px;
+        margin-top: 120px;
+        font-family: fira-reg;
+    }
+}
+.aboutBody2{
+    width: 100%;
+    height: 800px;
+    background-color: #f679c4;
+    display: flex;
+
+    .left2{
+        background-image: url(../images/flowers.jpg);
+        height: 500px;
+        width: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+        margin-left: 100px;
+        
+    }
+    .right2{
+        width: 500px;
+        margin-left: 100px;
+        margin-top: 120px;
+        font-family: fira-reg;
+        margin-top: 100px;
+        margin-left: 400px;
+        
+
+    }
+}

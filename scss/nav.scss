@@ -1,0 +1,14 @@
+nav {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f6a6d6;
+  font-family: fira-bold;
+}

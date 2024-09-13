@@ -1,0 +1,41 @@
+.footer {
+    background-color: white;
+    color: #f6a6d6;
+    padding: 20px 0;
+    text-align: center;
+    height: 100px;
+    font-family: fira-bold;
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .footer-section {
+                flex: 1;
+                margin: 0 10px;
+                margin-top: 20px;
+
+            h2 {
+                    margin-top: 0;
+                }
+
+            a {
+                    color: #b55385;
+                    text-decoration: none;
+                    font-family: fira-reg;
+
+                    &:hover {
+                        color: white;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
